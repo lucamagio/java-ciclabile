@@ -49,7 +49,7 @@ public class Elenco{
 
     public void addElement(int nuovoElemento){
         if(dimensione == elenco.length){
-            Integer[] nuovoElenco = new Integer[elenco.length * 2];
+            Integer[] nuovoElenco = new Integer[elenco.length + 1];
             System.arraycopy(elenco, 0, nuovoElenco, 0, elenco.length);
             elenco = nuovoElenco;
         }
