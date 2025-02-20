@@ -11,6 +11,14 @@ public class Prova {
         System.out.println(elenco.getElementoSuccessivo());
         System.out.println(elenco.hasAncoraElementi());
 
+        Elenco elenco2 = new Elenco();
+
+        elenco2.addElement(1);
+        elenco2.addElement(2);
+        elenco2.addElement(3);
+        elenco2.addElement(4);
+        elenco2.stampa();
+
     }
 }
 
